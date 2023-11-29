@@ -9,9 +9,9 @@ function Header() {
             <div className="container">
               <div className="row">
                 <div className="col-md-3 col-sm-3">
-                  <div className="site-title">
+                  <div className="site-title" style={{ paddingBottom: "10px" }}>
                     <a href="/#home" style={{ textDecoration: "none" }}>
-                      <h3>Sanajit Jana</h3>
+                      <h3>Ravshanbek Xudayqulov</h3>
                     </a>
                   </div>
                 </div>
@@ -23,7 +23,6 @@ function Header() {
                     data-target="#bs-example-navbar-collapse-1"
                     aria-expanded="false"
                   >
-                    <span className="sr-only">Toggle navigation</span>
                     <span className="icon-bar"></span>
                     <span className="icon-bar"></span>
                     <span className="icon-bar"></span>
@@ -37,26 +36,24 @@ function Header() {
                     <ul className="nav navbar-nav">
                       <li>
                         <a href="/#home" className="active">
-                          Home
+                          home
                         </a>
                       </li>
                       <li>
-                        <a href="/#about">About</a>
+                        <a href="/#about">webdasturlar haqida</a>
                       </li>
                       <li>
-                        <a href="/#skill">Skill</a>
+                        <a href="/#skill">javascript</a>
+                      </li>
+
+                      <li>
+                        <a href="/#service">HTML</a>
                       </li>
                       <li>
-                        <a href="/#resume">Education</a>
+                        <a href="/#blog">CSS</a>
                       </li>
                       <li>
-                        <a href="/#service">Service</a>
-                      </li>
-                      <li>
-                        <a href="/#blog">Blog</a>
-                      </li>
-                      <li>
-                        <a href="/#contact">Contact</a>
+                        <a href="/#contact">PHP</a>
                       </li>
                     </ul>
                   </div>

@@ -17,67 +17,16 @@ const Home = () => {
                           className="cd-words-wrapper"
                           style={{ width: "266px", overflow: "hidden" }}
                         >
-                          <b className="is-hidden">Sanajit Jana</b>
-                          <b className="is-hidden">Designer</b>
-                          <b className="is-visible">Developer</b>
+                          <b className="is-hidden">Ravshanbek Xudayqulov</b>
+                          <b className="is-hidden">
+                            Mavzu: <br />
+                            Webga asoslangan dasturlar
+                          </b>
+                          <b className="is-visible">Javascript</b>
+                          <b className="is-visible">CSS</b>
+                          <b className="is-visible">HTML</b>
                         </span>
                       </h1>
-                      <div className="about-social-icon text-center">
-                        <ul className="about-social">
-                          <li className="wow fadeIn" data-wow-delay=".4s">
-                            <a
-                              href="https://www.linkedin.com/in/sanajitjana01"
-                              target="newtab"
-                            >
-                              <i
-                                className="fa fa-linkedin"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                          <li className="wow fadeIn" data-wow-delay=".2s">
-                            <a
-                              href="https://github.com/sanajitjana"
-                              target="newtab"
-                            >
-                              <i
-                                className="fa fa-github"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                          <li className="wow fadeIn" data-wow-delay=".6s">
-                            <a
-                              href="https://www.instagram.com/sanajitjana01/"
-                              target="newtab"
-                            >
-                              <i
-                                className="fa fa-instagram"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                          <li className="wow fadeIn" data-wow-delay=".8s">
-                            <a
-                              href="https://twitter.com/sanajitjana01"
-                              target="newtab"
-                            >
-                              <i
-                                className="fa fa-twitter"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                          <li className="wow fadeIn" data-wow-delay="1s">
-                            <a
-                              href="https://dev.to/sanajitjana"
-                              target="newtab"
-                            >
-                              <i className="fa fa-book" aria-hidden="true"></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -94,185 +43,49 @@ const Home = () => {
           <div className="about-content">
             <div className="love-grid text-center">
               <div className="container">
+                <div
+                  style={{
+                    width: "100%",
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  {" "}
+                  <img
+                    src="https://avatars.mds.yandex.net/i?id=3548c2e11f47ae2e9f1e8651cb79b294-5234332-images-thumbs&n=13"
+                    alt=""
+                  />
+                </div>
+
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>What I do</h3>
+                      <h3>
+                        Webga asoslangan dasturlar asosan javascript css html va
+                        phplar kiradi biz ular bilan tanishib chiqamiz
+                      </h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        At present time I'm working on a multi-role, as a Web
-                        Developer I design and create various websites. And as
-                        UI/UX Designer I create many designs for Web
-                        Applications and Mobile applications. I create the
-                        beauty of the site. I'm responsible for the site's
-                        technical aspects, such as its performance and capacity,
-                        which are measures of a website's speed and how much
-                        traffic the site can handle. In addition, I also create
-                        content for the site.
+                        HTML / CSS / JavaScript: Asosiy veb texnologiyalari
+                        HTML, CSS, va JavaScript. HTML - sahifa strukturasini
+                        belgilash, CSS - stil berish, JavaScript - interaktivlik
+                        qo'shish uchun ishlatiladi.
                       </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="row love-row wow fadeIn">
-                  <div className="col-md-3 col-sm-6">
-                    <div className="love-details" data-wow-delay=".1s">
-                      <i
-                        className="fa fa-pencil-square-o love-icon"
-                        aria-hidden="true"
-                      ></i>
-                      <h3>Working Hard</h3>
-                      <div className="underline1"></div>
-                      <div className="underline2"></div>
-                      <p>Always believe in hard-work in my profession</p>
-                    </div>
-                  </div>
-                  <div className="col-md-3 col-sm-6">
-                    <div className="love-details" data-wow-delay=".3s">
-                      <i
-                        className="fa fa-file-image-o love-icon"
-                        aria-hidden="true"
-                      ></i>
-                      <h3>UI/UX Design</h3>
-                      <div className="underline1"></div>
-                      <div className="underline2"></div>
-                      <p>Love to do UI/UX design for new product</p>
-                    </div>
-                  </div>
-                  <div className="col-md-3 col-sm-6">
-                    <div className="love-details" data-wow-delay=".2s">
-                      <i
-                        className="fa fa-globe love-icon"
-                        aria-hidden="true"
-                      ></i>
-                      <h3>Web Design</h3>
-                      <div className="underline1"></div>
-                      <div className="underline2"></div>
-                      <p>Passionate about Web Design from start</p>
-                    </div>
-                  </div>
-                  <div className="col-md-3 col-sm-6">
-                    <div className="love-details" data-wow-delay=".4s">
-                      <i className="fa fa-cog love-icon" aria-hidden="true"></i>
-                      <h3>Web Development</h3>
-                      <div className="underline1"></div>
-                      <div className="underline2"></div>
-                      <p>Created all types of modern web development.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="about-back"></div>
-            <div className="me-grid">
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-4 col-sm-6 col-xs-12 about-col">
-                    <div className="about-image">
-                      <img
-                        src="assets/img/about-image.jpg"
-                        alt="sanajit-jana"
-                        className="about-img wow fadeIn"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-md-8 col-sm-6 col-xs-12 about-col">
-                    <div className="about-details wow fadeIn">
-                      <div className="main-title left-title text-left wow fadeIn">
-                        <h3>Hello! This is Sanajit</h3>
-                        <div className="underline1 no-margin"></div>
-                        <div className="underline2 no-margin"></div>
-                      </div>
-                      <p className="wow fadeIn">
-                        I am a web developer from Kolkata, India. I enjoy
-                        building everything from small business sites to rich
-                        interactive web apps. if you are a business seeking a
-                        web presence or an employer looking to hire, you can get
-                        in touch with me{" "}
-                        <a className="underline2" href="#contact">
-                          {" "}
-                          here.
-                        </a>{" "}
-                        I design and build digital products with simple and
-                        beautiful code. I specialize in custom web theme
-                        development and love what I do.
-                        <br />
-                        <br />
-                        Since beginning my journey as a web developer in my
-                        college days, I've done remote work for agencies,
-                        consulted for startups, and collaborated with talented
-                        people to create digital products for both business and
-                        consumer use. I'm quietly confident, naturally curious,
-                        and perpetually working on improving my chops one design
-                        problem at a time.
+                      <p>
+                        Front-End Dasturlash Frameworklari: Ko'p dasturchilar
+                        React, Angular, va Vue.js kabi JavaScript
+                        frameworklarini o'rganishadi. Bu, foydalanuvchi
+                        interfeysini yaratish va ishlatish uchun yordam
+                        beradigan yechimlarni taqdim etadi.
                       </p>
-                      <a
-                        className="about-link-1"
-                        href="assets/cv/sanajit-jana-profile.pdf"
-                        target="_blank"
-                      >
-                        See Resume
-                      </a>
-                      <a className="about-link-2" href="#contact">
-                        Hire Me
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="work-counter text-center">
-              <div className="counter">
-                <div className="container">
-                  <div className="row wow fadeIn">
-                    <div className="col-md-3 col-sm-6">
-                      <div className="work-statistics">
-                        <i
-                          className="fa fa-pencil-square-o stat-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3 className="Count">0021</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>Web Design Completed</p>
-                      </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6">
-                      <div className="work-statistics">
-                        <i
-                          className="fa fa-crop stat-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3 className="Count">0040</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>UI/UX Design Done</p>
-                      </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6">
-                      <div className="work-statistics">
-                        <i
-                          className="fa fa-bolt stat-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3 className="Count">0015</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>Website Created</p>
-                      </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6">
-                      <div className="work-statistics">
-                        <i
-                          className="fa fa-coffee stat-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3 className="Count">0085</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>Cups Coffee Taken</p>
-                      </div>
+                      <p>
+                        Back-End Dasturlash: Back-end dasturlashda, Node.js,
+                        Express.js, Django, Flask, Ruby on Rails, va Laravel
+                        kabi frameworklar ishlatiladi. Bu texnologiyalar server
+                        tomonini yaratish va ma'lumotlar bazalariga murojaat
+                        qilish uchun ishlatiladi.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -287,57 +100,92 @@ const Home = () => {
           <div className="skill-main">
             <div className="container">
               <div className="row">
+                <div
+                  style={{
+                    width: "100%",
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  {" "}
+                  <img
+                    style={{ width: "100%" }}
+                    src="https://www.20i.com/blog/wp-content/uploads/2020/10/I-love-JavaScript.png"
+                    alt=""
+                  />
+                </div>
                 <div className="col-md-12">
                   <div className="main-title text-center wow fadeIn">
-                    <h3>My Skill</h3>
+                    <h3>JAVASCRIPT</h3>
                     <div className="underline1"></div>
                     <div className="underline2"></div>
+                    <h3>JavaScript dasturlash tili haqida ma’lumotlar:</h3>
                     <p>
-                      I value simple content structure, clean design patterns,
-                      and thoughtful interactions.
+                      JavaScript — bu veb-sahifalarni o’zaro tasirini hosil
+                      qilish uchun foydalaniladigan dasturiy tildir. Bu sahifaga
+                      hayot beradi ya’ni foydalanuvchini jalb qiladigan o’zaro
+                      tasirlashuvchi elementlar va animatsiyalar hosil qiladi.
+                      Agar bosh sahifada qidiruv qutisini ishlatgan bo'lsangiz,
+                      yoki videoni tomosha qilgan bo'lsangiz, u JavaScript
+                      orqali ishlayotgan bo’lishi mumkin. JavaScript Javaga
+                      mutlaq tegishli emas. JavaScript va Java ikki xil
+                      kompyuter tilidir, ikkalasi ham 1995 yilda ishlab
+                      chiqilgan. Java obyektga asoslangan dasturiy til bo'lib, u
+                      kompyuter muhitida mustaqil ishlashi mumkin degan ma'noni
+                      anglatadi. Boshqa tomondan JavaScript-ni veb-ga asoslangan
+                      dasturning bir qismi sifatida ishlashga mo'ljallangan matn
+                      asosida dasturlash tilidir desak bo’ladi. Vebga asoslangan
+                      muhitda ishga tushishidan oldin tuzilishi kerak bo’lgan
+                      Java dasturlaridan farqli o'laroq, JavaScript HTMLga
+                      birlashtirish uchun mo’ljallangan. Barcha katta
+                      veb-brauzerlar JavaScript-ni qo'llab-quvvatlaydi.
+                      JavaScript dan foydalanish va yozish JavaScript haqida eng
+                      muhim narsa, uni veb-kodingizdan foydalanish uchun qanday
+                      yozishni bilishingizga hojati yo'q. Onlaynda bepul
+                      JavaScripts-ni topishingiz mumkin. Bunday buyruqlardan
+                      (kodlardan) foydalanish uchun bilishingiz kerak bo'lgan
+                      yagona narsa, taqdim etilgan kodni veb-saytingizdagi
+                      to'g'ri joylarga qanday joylashtirishdir. JavaScript-dan
+                      foydalanish uchun yozishga hojat bo'lmasa-da, ayrim kod
+                      yozuvchilar buni qanday qilishni bilishni istashadi.
+                      JavaScriptda mavjud kodni yaratish uchun maxsus dastur
+                      talab qilinmaydi. Windows uchun Notepad kabi tekis
+                      muharriri sizning JavaScript-ni yozishingiz uchun kerak.
+                      JavaScript va HTML boshqa narsalar. HTML va JavaScript
+                      ikki xil narsadir, lekin ular bir-birini to'ldiradi. HTML
+                      — statik veb-kontentni aniqlash uchun mo'ljallangan
+                      formatlash tili. Bu veb-sahifani uning asosiy tuzilishi
+                      bilan ta'minlaydi. JavaScript bu sahifadagi dinamik
+                      vazifalarni, masalan, animatsiya yoki qidiruv
+                      maydonchasini bajarish uchun mo'ljallangan dasturiy
+                      tildir. JavaScript veb-saytning HTML tizimida ishlash
+                      uchun yaratilgan va odatda bir necha marta ishlatiladi.
+                      Agar siz kod yozishni davom ettirmoqchi bo'lsangiz, ularni
+                      alohida fayllarga joylashtirsangiz JavaScript-ga osonroq
+                      kira olasiz. (.JS kengaytmasidan foydalanish ularni
+                      aniqlashda yordam beradi.) JavaScript-ni HTML-ga teg
+                      kiritish orqali bog'laysiz. JavaScript-ning afzalliklari.
+                      JavaScript-dan foydalanishning afzalliklari –Albatta bu
+                      yerda barchasi emas, asosiylari. Saytga darhol javob
+                      yozish —Ular ular biror narsa kiritishni unutganmi yo'qmi,
+                      sahifani qayta yuklanishini kutish shart emas. O’zaro
+                      tasirni oshirish — Foydalanuvchilar sichqonchani bosganda
+                      yoki klaviatura orqali ularni faollashtirganida, siz
+                      interfeyslarni (kompyuter bilan foydalanuvchuga aloqa
+                      qilish imkonini beradigan qurilma) yaratishingiz mumkin.
+                      Boyroq interfeyslar — Siz JavaScript-dan saytga tashrif
+                      buyuruvchilarga boy interfeys berish uchun drag-and-drop
+                      tarkibiy qismlari va slayder kabi narsalarni
+                      foydalanishingiz mumkin. JavaScript-ni cheklashlar.
+                      JavaScript-ni to'liq dasturlash tili sifatida ko'rib chiqa
+                      olmaymiz. Unda Quyidagi muhim xususiyatlar yo'q :
+                      Client-side JavaScript fayllarni o'qish yoki yozishga
+                      ruxsat bermaydi. Bu xavfsizlik sababi bilan saqlandi.
+                      JavaScript-ni tarmoq ilovalari uchun ishlatib bo'lmaydi,
+                      chunki bu qo'llab-quvvatlanmaydi. JavaScript-da hech
+                      qanday multithreading (ko’p ishlov berish) yoki
+                      multiprosessor qobiliyati yo'q.
                     </p>
-                  </div>
-                </div>
-              </div>
-              <div className="row love-row wow fadeIn">
-                <div className="col-md-6">
-                  <div className="skill-details text-left">
-                    <p>
-                      UI/UX involves planning and iterating a site's structure
-                      and layout. Once the proper information architecture is in
-                      place, I design the visual layer to create a beautiful
-                      user experience. Front End Development is building out the
-                      visual components of a website. Using HTML, CSS, and
-                      Javascript, I build fast, interactive websites. This also
-                      may include a CMS, apis, or other integrations. The work
-                      that I am most interested in is 0-1 work (helping you get
-                      your idea into the world).
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="skill-details">
-                    <div className="content">
-                      <div className="col">
-                        <ul id="skill-main">
-                          <li>
-                            <h3>HTML / CSS - 97%</h3>
-                          </li>
-                          <li>
-                            <h3>UI / UX - 92%</h3>
-                          </li>
-                          <li>
-                            <h3>React JS - 30%</h3>
-                          </li>
-                          <li>
-                            <h3>PHP (Laravel) - 93%</h3>
-                          </li>
-                          <li>
-                            <h3>MySQL - 95%</h3>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -347,343 +195,118 @@ const Home = () => {
 
         {/* <!-- ================================ RESUME =============================== --> */}
 
-        <div id="resume">
-          <div className="resume-content">
-            <div className="resume-grid text-center">
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-12">
-                    <div className="main-title text-center wow fadeIn">
-                      <h3>Educational Story</h3>
-                      <div className="underline1"></div>
-                      <div className="underline2"></div>
-                      <p>
-                        I like to code things from scratch, and enjoy bringing
-                        ideas to life in the browser.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="row love-row wow fadeIn">
-                  <div className="col-md-4 col-sm-4">
-                    <div className="resume-details" data-wow-delay=".2s">
-                      <div className="resume-hover"></div>
-                      <div className="resume-main">
-                        <i
-                          className="fa fa-home resume-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>School</h3>
-                        <h2>2010-2017</h2>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          Completed my school life from Haludbari High School
-                          (H.S.), Khejuri, West Bengal, India.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-sm-4">
-                    <div className="resume-details" data-wow-delay=".3s">
-                      <div className="resume-hover"></div>
-                      <div className="resume-main">
-                        <i
-                          className="fa fa-graduation-cap resume-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Graduation</h3>
-                        <h2>2017-2020</h2>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          Achieved my Graduation Degree from{" "}
-                          <a
-                            href="https://www.cclms.org/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            CCLMS (Contai College of Learning and Management
-                            Science)
-                          </a>
-                          , Contai, West Bengal, India.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-sm-4">
-                    <div className="resume-details" data-wow-delay=".4s">
-                      <div className="resume-hover"></div>
-                      <div className="resume-main">
-                        <i
-                          className="fa fa-graduation-cap resume-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Training &amp; Skill</h3>
-                        <h2>2022-2022</h2>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          Currently learning Full-Stack Web Development from{" "}
-                          <a
-                            href="https://masaischool.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Masai School
-                          </a>
-                          , Bengaluru, India.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="row main-row wow fadeIn">
-                  <div className="col-md-12">
-                    <div className="main-title text-center">
-                      <h3>Working Experience</h3>
-                      <div className="underline1"></div>
-                      <div className="underline2"></div>
-                      <p>
-                        I don’t like to define myself by the work I’ve done. I
-                        define myself by the work I want to do.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="row love-row">
-                  <div className="col-md-6 col-sm-12">
-                    <div className="exp-details" data-wow-delay=".2s">
-                      <div className="exp-hover"></div>
-                      <div className="exp-main">
-                        <i
-                          className="fa fa-building exp-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>
-                          <a
-                            href="https://patelgtech.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "#4d4d4d" }}
-                          >
-                            Patel G Tech LLP
-                          </a>
-                        </h3>
-                        <h4>Repub Member</h4>
-                        <h2>2019-2020</h2>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          I did an internship at PATEL G TECH LLP as a
-                          Republication Team Member
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6 col-sm-12">
-                    <div className="exp-details" data-wow-delay=".3s">
-                      <div className="exp-hover"></div>
-                      <div className="exp-main">
-                        <i
-                          className="fa fa-building exp-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>
-                          <a
-                            href="https://uaguria.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "#4d4d4d" }}
-                          >
-                            Uaguria Software
-                          </a>
-                        </h3>
-                        <h4>Web Developer</h4>
-                        <h2>2020-2022</h2>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          At Uaguria Software, I was working as a Web Developer
-                          &amp; IT Consultant Person
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  {/* <div className="col-md-4 col-sm-4">
-                    <div className="exp-details" data-wow-delay=".4s">
-                      <div className="exp-hover"></div>
-                      <div className="exp-main">
-                        <i
-                          className="fa fa-cogs exp-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Supreme Company</h3>
-                        <h4>Designer &amp; Developer</h4>
-                        <h2>2013-2016</h2>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
-                      </div>
-                    </div>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* <!-- ================================ WORK =============================== --> */}
-
-        {/* <div id="work">
-          <div className="work-content">
-            <div className="work-grid">
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-12">
-                    <div className="main-title text-center wow fadeIn">
-                      <h3>Work Portfolio</h3>
-                      <div className="underline1"></div>
-                      <div className="underline2"></div>
-                      <p>
-                        Here are a few design projects I've worked on recently.
-                        Want to see more?{" "}
-                        <a className="underline2" href="#contact">
-                          contact me.
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="container">
-                <div className="gallery" style={{ paddingTop: "80px" }}>
-                  <a href="#">
-                    <div className="gallery-item">
-                      <img
-                        className="gallery-image"
-                        src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop"
-                        alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer"
-                      />
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div className="gallery-item">
-                      <img
-                        className="gallery-image"
-                        src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop"
-                        alt="sunset behind San Francisco city skyline"
-                      />
-                    </div>
-                  </a>
-                  <div className="gallery-item">
-                    <img
-                      className="gallery-image"
-                      src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop"
-                      alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan"
-                    />
-                  </div>
-                  <a href="#">
-                    <div className="gallery-item">
-                      <img
-                        className="gallery-image"
-                        src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=500&h=500&fit=crop"
-                        alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night"
-                      />
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div className="gallery-item">
-                      <img
-                        className="gallery-image"
-                        src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=500&h=500&fit=crop"
-                        alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA"
-                      />
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div className="gallery-item">
-                      <img
-                        className="gallery-image"
-                        src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?w=500&h=500&fit=crop"
-                        alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp"
-                      />
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div className="gallery-item">
-                      <img
-                        className="gallery-image"
-                        src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop"
-                        alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer"
-                      />
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div className="gallery-item">
-                      <img
-                        className="gallery-image"
-                        src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop"
-                        alt="sunset behind San Francisco city skyline"
-                      />
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div className="gallery-item">
-                      <img
-                        className="gallery-image"
-                        src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop"
-                        alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan"
-                      />
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div className="gallery-item">
-                      <img
-                        className="gallery-image"
-                        src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop"
-                        alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer"
-                      />
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div className="gallery-item">
-                      <img
-                        className="gallery-image"
-                        src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop"
-                        alt="sunset behind San Francisco city skyline"
-                      />
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div className="gallery-item">
-                      <img
-                        className="gallery-image"
-                        src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop"
-                        alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan"
-                      />
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-
         {/* <!-- ============================================== SERVICE ===================================================== --> */}
 
         <div id="service">
           <div className="service-content">
             <div className="service-grid text-center">
               <div className="container">
+                <div
+                  style={{
+                    width: "100%",
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  {" "}
+                  <img
+                    style={{ width: "100%" }}
+                    src="https://avatars.mds.yandex.net/i?id=ad5d3799371e4113766adfad26129c8d3be729af-8311401-images-thumbs&n=13"
+                    alt=""
+                  />
+                </div>
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>Service List</h3>
+                      <h3>HTML</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
+                      <h3>HTML haqida malumotlar</h3>
                       <p>
-                        I always want to make things that make a difference.
+                        HTML – bu (ing. HyperText Markup Language, uzb. Giper
+                        matnli belgilash tili) bo’lib, umumjahon internet
+                        tarmog’idagi hujjatlar uchun standartlashtirilgan
+                        belgilash tili hisoblanadi. Barcha veb-sahifalarda
+                        HTML-belgilar mavjud bo’lib ular brauzerlar tomonidan
+                        izohlanadi. Natijada formatlangan matn kompyuter yoki
+                        mobil qurilmaning ekranida aks etadi. HTML ning
+                        5-versiyasidan oldin HTML SGML dasturi sifatida
+                        belgilardi (ISO 8879 ga muvofiq standartlashtirilgan
+                        umumlashtiruvchi til). HTML5 dan boshlab
+                        spetsifikatsiyalari DOM (ing. Document Object Model,
+                        uzb. Hujjat Ob’ekti Modeli) nuqtai nazaridan tuzilgan.
+                        XHTML HTML-ning yanada qattiqroq versiyasi bo’lib, u XML
+                        sintaksisiga amal qiladi va gipermatnni belgilash uchun
+                        XML til dasturidir. WEBda HTML sahifalar odatda HTTP
+                        yoki HTTPS orqali serverdan oddiy matn shaklida yoki
+                        shifrlangan holda brauzerlarga uzatiladi. HTML
+                        gipermatnli belgilash tili ingliz olimi Tim Berners-Li
+                        tomonidan 1986–1991 yillarda Shveytsariyaning Jenevadagi
+                        CERN labaratoriyasida ishlab chiqilgan. HTML hujjat,
+                        odatda, ikkita bo‘limdan iborat bo‘ladi. Birinchi bo‘lim
+                        HEAD (bosh qism yoki sarlavha) bo‘limi bo‘lib u tegi
+                        bilan boshlanib HEAD tegi bilan tugaydi. Ikkinchi bo‘lim
+                        BODY (tana) bo‘limi bo‘lib, unda hujjatni mazmuni aks
+                        ettiradi va u BODY tegi bilan boshlanib BODY tegi bilan
+                        tugaydi. Agar HTML hujjat freym-strukturani ifodalashi
+                        (web-brauzer oynasidagi ma’lumotlar alohida sohalarda
+                        aks ettishi) lozim bo‘lsa, u holda BODY bo‘limi o‘rniga
+                        FRAMESET (FRAME SET – strukturalar (ramkalar) tizilmasi
+                        (to‘plami), juft tegi yordamida) bo‘limi ishlatiladi.
+                        Shuni ta’kidlash joizki, HTML-hujjatda va juft teglarini
+                        yozish tavsiya etiladi, lekin majburiy emas.
+                        Web-sahifaga kiritilishi lozim bo‘lgan yana bir element
+                        – web-sahifa nomi bo‘lib, nom kiritish uchun tegi
+                        qo‘llaniladi. Web-sahifada bu teg bir marta ishlatiladi.
+                        Web-sahifa nomi web-brauzerning sarlavha satrida aks
+                        etib, web-sahifaning o‘zida ko‘rinmaydi. Shu sababli uni
+                        web-sahifaning istalgan joyiga yozish mumkin. Ammo
+                        web-sahifa nomini web-sahifa boshiga yozish maqsadga
+                        muvofiq. Web-sahifa nomi tegi bilan yakunlanadi.
+                        Web-sahifaga istalgan nom, masalan, o‘z ismingizni
+                        berishingiz mumkin. HTML tili muttasil rivojlanib
+                        bormoqda. O‘z navbatida web-brauzerlar ham yangilanib
+                        turibdi. Hozirgi kunda web-sahifa tayyorlash uchun
+                        asosan HTML5 tilidan foydalaniladi. HTML Versiyalari:
+                        HTML 2.0 — IETF tomonidan tavsiya etilgan standart
+                        holatda (18 noyabr 1995 yil) RFC 1866 sifatida nashr
+                        etilgan. HTML 3.0–1995 yil 28 mart — IETF
+                        Internet-loyihasi (1995 yil 28 sentyabrgacha) HTML
+                        3.2–1997 yil 14 yanvar HTML 4.0–1997 yil 18 dekabr HTML
+                        4.01–1999 yil 24 dekabr ISO / IEC 15445: 2000 (HTML 4.01
+                        qat’iyligiga asoslangan ISO HTML deb nomlanadi) — 2000
+                        yil 15 may HTML5–2014 yil 28 oktyabr HTML 5.1 2012 yil
+                        17 dekabrda ishlab chiqila boshlandi. 2016 yil
+                        1-noyabrda foydalanish uchun tavsiya etiladi. HTML 5.2
+                        2017 yil 14-dekabr kuni taqdim etildi. HTML 5.3 2018 yil
+                        24 dekabrda taqdim etildi. HTML - HyperText Markup
+                        Language uchun qisqartma shakldir va u 1990 — yilda Tim
+                        Berners-Li tomonidan ishlab chiqilgan. HTML WWW-da
+                        ko'rsatiladigan elektron hujjatlarni (sahifalar deb
+                        nomlanadi) yaratish uchun ishlatiladi. Har bir sahifa
+                        “Hyperlink” ya’ni “ko’prik”lar orqali bir – biriga
+                        ulanadi. O’sha ko’priklarni bosish orqali boshqa
+                        sahifalarga o’tib yurasiz. Siz internetda ko’radigan har
+                        bir veb sahifa HTML ning bir yoki boshqa versiyalaridan
+                        foydalanib yozilgan. HTML kodi matn va tasvirlarni
+                        to'g'ri formatlashni ta'minlaydi, shu tarzda sizning
+                        Internet brauzeringiz mo’ljallangani kabi ko’rsatadi.
+                        HTML bo'lmasa, brauzer matnni elementlar yoki rasmlar
+                        yuklash sifatida qanday ko’rsatishni bilmagan bo’lardi.
+                        HTML shuningdek, sahifaning asosiy tuzilishini taqdim
+                        etadi, keyin Cascading Style Sheetsko'rinishini
+                        o'zgartiradi. Biz HTML-ni veb-sahifaning suyaklari
+                        (tuzilishi) vaCascading Style Sheets(CSS) ni esa uning
+                        terisi (tashqi ko’rinishi) deb tushunishimiz mumkin. Siz
+                        veb dizayner bo’lmoqchimisiz, sayt yaratmoqchimisiz,
+                        albatta HTML-dan xabaringiz bo’lishi kerak. Masalan
+                        JohnCMS dagi ishlarim uchun ham HTML bilimlarimdan
+                        foydalanaman. Shuni aytishim mumkin, baxtingizga HTMLni
+                        o’rganish juda oson. Men HTMLni bor yo’g’i BESH kun
+                        o’rganib sayt yaratganman Xullas, HTMLni o’rganishni
+                        maslahat beraman. Boshqa biron bir dasturlash tilini
+                        o’rganmoqchi bo’lsangiz ham, boshlanishiga HTMLdan
+                        boshlasangiz, keyingi tillarni tushinish oson kechadi.
                       </p>
                     </div>
                   </div>
@@ -702,13 +325,6 @@ const Home = () => {
                           className="fa fa-edit service-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Design + Development</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          Clean, modern designs - optimized for performance,
-                          search engines, and converting users to customers.
-                        </p>
                       </div>
                     </div>
                   </div>
@@ -725,13 +341,6 @@ const Home = () => {
                           className="fa fa-cart-plus exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>eCommerce</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          Integration of eCommerce platforms, payment gateways,
-                          custom product templates, and more.
-                        </p>
                       </div>
                     </div>
                   </div>
@@ -748,180 +357,8 @@ const Home = () => {
                           className="fa fa-tachometer service-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Analytics</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          Get insights into who is browsing your site so that
-                          you can make smarter business decisions.
-                        </p>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-4 col-sm-6">
-                    <div className="service-details" data-wow-delay=".1s">
-                      <div className="service-head">
-                        <img
-                          src="assets/img/service/mobile-friendly.jpg"
-                          alt="mobile-friendly"
-                        />
-                      </div>
-                      <div className="service-bottom">
-                        <i
-                          className="fa fa-desktop exp-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Mobile-friendly</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          A responsive design makes your website accessible to
-                          all users, regardless of their device.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-sm-6">
-                    <div className="service-details" data-wow-delay=".1s">
-                      <div className="service-head">
-                        <img
-                          src="assets/img/service/website-audit.jpg"
-                          alt="website-audit"
-                        />
-                      </div>
-                      <div className="service-bottom">
-                        <i
-                          className="fa fa-search exp-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Website Rank</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          Looking to improve your page performance, SEO, or user
-                          experience? Request a free site audit.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-sm-6">
-                    <div className="service-details" data-wow-delay=".1s">
-                      <div className="service-head">
-                        <img
-                          src="assets/img/service/content-management.jpg"
-                          alt="content-management"
-                        />
-                      </div>
-                      <div className="service-bottom">
-                        <i
-                          className="fa fa-file exp-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Content Management</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          Custom theme and plugin development. Easily update
-                          site content with knowledge of powerful code.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="testimonial">
-              <div className="testimonial-content">
-                <div className="testimonial-grid">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-md-12">
-                        <div className="main-title text-center wow fadeIn">
-                          <h3>Testimonials</h3>
-                          <div className="underline1"></div>
-                          <div className="underline2"></div>
-                          <p>
-                            People I've worked with have said some nice things
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="testimonial-details">
-                    <section id="carousel">
-                      <div className="container">
-                        <div className="row">
-                          <div className="col-md-8 col-md-offset-2">
-                            <div className="quote">
-                              <i className="fa fa-quote-left fa-4x"></i>
-                            </div>
-                            <div
-                              className="carousel slide"
-                              id="fade-quote-carousel"
-                              data-ride="carousel"
-                              data-interval="3000"
-                            >
-                              <ol className="carousel-indicators">
-                                <li
-                                  data-target="#fade-quote-carousel"
-                                  data-slide-to="0"
-                                  className="active"
-                                ></li>
-                                <li
-                                  data-target="#fade-quote-carousel"
-                                  data-slide-to="1"
-                                ></li>
-                                <li
-                                  data-target="#fade-quote-carousel"
-                                  data-slide-to="2"
-                                ></li>
-                              </ol>
-                              <div className="carousel-inner">
-                                <div className="active item">
-                                  <blockquote>
-                                    <p>
-                                      “Sanajit was a real pleasure to work with
-                                      and we look forward to working with him
-                                      again. He’s definitely the kind of
-                                      developer you can trust with a project
-                                      from start to finish.”
-                                      <br />
-                                      <span>Ishrak Chaudhury</span>
-                                    </p>
-                                  </blockquote>
-                                </div>
-                                <div className="item">
-                                  <blockquote>
-                                    <p>
-                                      “Sanajit's a clear communicator with the
-                                      tenacity and confidence to really dig in
-                                      to tricky design scenarios and the
-                                      collaborative friction that's needed to
-                                      produce excellent work.”
-                                      <br />
-                                      <span>Kamrul Roy</span>
-                                    </p>
-                                  </blockquote>
-                                </div>
-                                <div className="item">
-                                  <blockquote>
-                                    <p>
-                                      “Sanajit has done a fantastic job overall.
-                                      Not only the site is to design, but the
-                                      code is also very clean and slick. Love
-                                      the way he achieved the translations
-                                      portion of the site.”
-                                      <br />
-                                      <span>Shahadat Mahapatra</span>
-                                    </p>
-                                  </blockquote>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </section>
                   </div>
                 </div>
               </div>
@@ -935,181 +372,141 @@ const Home = () => {
           <div className="blog-content">
             <div className="blog-grid">
               <div className="container">
+                <div
+                  style={{
+                    width: "100%",
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  {" "}
+                  <img
+                    style={{ width: "100%" }}
+                    src="https://avatars.mds.yandex.net/i?id=45950c149d75d3109e9a9d45c943493b14b6a6a5-9151930-images-thumbs&n=13"
+                    alt=""
+                  />
+                </div>
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>My Blog</h3>
+                      <h3>CSS</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
+                      <h3>CSS haqida malumotlar</h3>
                       <p>
-                        The Blog, Which has thoughts on life, work and
-                        everything in between.
+                        CSS nima va u nimaga kerak. CSS haqida ma'lumot CSS
+                        (Cascading style sheets – Kaskadlangan stillar jadvali)
+                        — bu belgilash tilidan foydalanib yozilgan hujjatlarning
+                        ko’rinishini tasvirlash uchun ishlatiladigan rasmiy til
+                        hisoblanadi. U asosan HTML va XHTML belgilash tillari
+                        yordamida yozilgan veb-sahifalarning ko’rinishini
+                        tasvirlash va loyihalash vositasi sifatida ishlatiladi,
+                        ammo har qanday XML hujjatlariga, masalan, SVG yoki
+                        XUL-ga ham qo’llanilishi mumkin. CSS veb-sahifaning
+                        tashqi ko’rinishiga ishlov beradi. CSS dan foydalanib,
+                        siz matnning rangini, shriftlarning uslubini,
+                        paragraflar orasidagi bo’shliqni, ustunlarning
+                        o’lchamlari va joylashishini, fon rasmlari yoki
+                        ranglarning qanday ishlatilishini, sxemaning
+                        tuzilishini, turli xil qurilmalar va ekran o’lchamlari
+                        uchun displeyning o’zgarishini boshqarishingiz mumkin.
+                        shuningdek, turli xil effektlarni ham. Bizning CSS
+                        bo’yicha darslarimizni bu yerdan topishingiz mumkin: CSS
+                        darslari CSS ning afzalliklari CSS vaqtni tejaydi – Siz
+                        CSS ni bir marta yozib, keyin bir nechta HTML
+                        sahifalarida qayta foydalanishingiz mumkin. Har bir HTML
+                        elementi uchun uslubni aniqlab, uni istaganingizcha
+                        veb-sahifalarga qo’llashingiz mumkin. Sahifalar tezroq
+                        yuklanadi – Agar siz CSSdan foydalanayotgan bo’lsangiz,
+                        har safar HTML atributlarini yozishingiz shart emas. Bir
+                        tegning bitta CSS qoidasini yozing va uni ushbu tegning
+                        barcha holatlariga qo’llang. Shunday qilib, kam kod
+                        degani tezroq yuklab olish vaqtini anglatadi. Oson
+                        texnik xizmat ko’rsatish – global o’zgarishni amalga
+                        oshirish uchun oddiygina uslubni o’zgartiring va barcha
+                        veb-sahifalardagi barcha elementlar avtomatik ravishda
+                        yangilanadi. HTML ga nisbatan ustun uslublar CSS da HTML
+                        ga nisbatan ancha kengroq xususiyatlar mavjud, shuning
+                        uchun HTML atributlarga qaraganda HTML sahifangizga
+                        yanada yaxshiroq ko’rinish berishingiz mumkin. Bir
+                        nechta qurilmalar mosligi – Uslublar jadvallari bir
+                        nechta turdagi qurilmalar uchun tarkibni
+                        optimallashtirishga imkon beradi. Xuddi shu HTML
+                        hujjatidan foydalangan holda veb-saytning turli xil
+                        versiyalari uyali telefonlar kabi qo’lda yoki
+                        qurilmalarda taqdim etilishi mumkin. CSS ni kim yaratadi
+                        va saqlaydi? CSS W3C tarkibidagi CSS ishchi guruhi deb
+                        nomlangan odamlar guruhi tomonidan yaratiladi va
+                        saqlanadi. CSS ishchi guruhi spetsifikatsiyalar deb
+                        nomlangan hujjatlarni yaratadi. Agar spetsifikatsiya
+                        muhokama qilinib, W3C a’zolari tomonidan rasman
+                        tasdiqlangan bo’lsa, u tavsiyanomaga aylanadi. CSS
+                        tarixi CSS birinchi marta 1997 yilda veb-ishlab
+                        chiquvchilar uchun yaratilgan veb-sahifalarning
+                        Ko’rinishini aniqlash uchun ishlab chiqilgan.
+                        Veb-professionallar veb-sayt kodining mazmuni va
+                        tarkibini vizual dizayndan ajratishga imkon berish uchun
+                        mo’ljallangan edi. Strukturani va uslubni ajratish
+                        HTML-ga asosan, «paydo bo’lishi va his qilish» deb
+                        nomlanadigan narsaning dizayni va tartibini tashvishga
+                        solmasdan, aslida asosli bo’lgan funktsiyadan ko’proq
+                        narsani bajarishga imkon beradi. Veb-brauzerlar ushbu
+                        tilning asosiy shrift va rang tomonlaridan ko’proq
+                        foydalana boshlagach, CSS 2000 atrofida mashhurlikka
+                        erisha olmadi. Bugungi kunda barcha zamonaviy brauzerlar
+                        CSS-ning 1-bosqichi, CSS-ning 2-darajali qismi va hatto
+                        CSS-ning 3-darajali aspektlarini qo’llab-quvvatlaydi.
+                        CSS-ning rivojlanishi va yangi uslublar joriy etilishi
+                        davom etar ekan, veb-brauzerlar ushbu brauzerlarda yangi
+                        CSS-ni qo’llab-quvvatlaydigan va veb-dizaynerlar bilan
+                        ishlash uchun kuchli yangi uslublar vositalarini
+                        beradigan modullarni joriy qila boshladilar. Ko’p yillar
+                        davomida veb-saytlarni loyihalash va ishlab chiqish
+                        uchun CSS-dan foydalanishni rad etgan tanlovli
+                        veb-dizaynerlar mavjud edi, ammo bu amaliyot bugungi
+                        kunda sanoatdan chiqib ketdi. CSS hozir veb-dizayni
+                        uchun keng tarqalgan ishlatiladigan standart bo’lib, siz
+                        bugungi kunda ushbu tilda hech qanday asosiy tushunchaga
+                        ega bo’lmagan sohada ishlaydigan har bir kishini
+                        topishingiz qiyinlashadi. CSS birinchi marta 1997 yilda
+                        veb-ishlab chiquvchilar yaratayotgan sahifalarning
+                        tashqi ko’rinishini aniqlash uchun yaratildi. CSS-dan
+                        foydalanib, siz matnning rangi, shriftlar stili,
+                        paragraflar orasidagi intervali, ustunlar o'lchami va
+                        joylashuvi, qanday fon tasvirlari yoki ranglar
+                        ishlatilganligi, joylashuv dizayni, shuningdek, turli
+                        xil ta'sirlarni o'z ichiga oladi. CSS-ni o'rganish va
+                        tushunish oson, va HTML-hujjat taqdimoti ustidan kuchli
+                        nazoratni ta'minlaydi. Odatda, CSS HTML yoki XHTML
+                        formatlash tillari bilan birlashtiriladi. CSS-ning
+                        afzalliklari. CSS vaqtni tejaydi — CSS-ni bir marta
+                        yozishingiz va bir nechta HTML sahifalarida qayta
+                        ishlatishingiz mumkin. Har bir HTML elementi uchun
+                        uslubni belgilashingiz va o’zingiz xohlagancha
+                        veb-sahifada qo'llashingiz mumkin. Sahifalar tezroq
+                        ko'chiriladi — Agar siz CSS-dan foydalansangiz, siz HTML
+                        yorlig'i (teg) xususiyatlarini har safar yozishingiz
+                        shart emas. Faqat bitta CSS qoidasini yozing va uni
+                        ushbu tegning barcha ko'rinishlariga qo'llang. Shunday
+                        qilib, kamroq kod tezroq yuklab olish vaqtini bildiradi.
+                        Oson ta’mirlash — global o'zgarishlarni amalga oshirish
+                        uchun uslubni o'zgartiring va barcha veb-sahifalardagi
+                        barcha elementlar avtomatik yangilanadi. HTMLga super
+                        stillar — CSS HTMLga nisbatan ancha kengroq
+                        xususiyatlarga ega, shuning uchun siz HTML sahifangizga
+                        HTML xossalariga nisbatan ancha yaxshiroq ko'rinish bera
+                        olasiz. Global veb-standartlari — Endi HTML sifati
+                        eskirgan va CSS-dan foydalanish tavsiya etiladi. Ya'ni,
+                        kelajakda brauzerlar bilan moslashishi uchun barcha
+                        HTML-sahifalarda CSS-dan foydalanishni boshlash yaxshi
+                        fikr. Oflayn ko’rib chiqish — CSS veb-ilovalarni maxfiy
+                        ravishda saqlab qo'yishi mumkin. Buning yordamida biz
+                        offline veb-saytlarni ko'rishimiz mumkin. Kesh ham
+                        tezroq yuklash va veb-saytning yaxshi ishlashini
+                        ta'minlaydi. Platforma Mustaqillik — Skript puxta
+                        platforma mustaqilligini ta'minlaydi va eng so'nggi
+                        brauzerlarni ham qo'llab-quvvatlaydi.
                       </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="blog-details wow fadeIn text-left">
-                <div className="container">
-                  <div className="row">
-                    <div className="col-md-4 col-sm-6">
-                      <div className="blog-main">
-                        <a
-                          href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <img
-                            src="assets/img/blog/blog1.png"
-                            alt="React hooks were introduced in version 16.8"
-                            className="blog-img"
-                          />
-                        </a>
-                        <div className="blog-head">
-                          <a
-                            href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ textDecoration: "none" }}
-                          >
-                            <h3>
-                              <strong>
-                                What is the importance of hooks in React JS?
-                              </strong>
-                            </h3>
-                          </a>
-                        </div>
-                        <div className="blog-bottom">
-                          <p>
-                            In this article, you will learn what are hooks in
-                            React JS? and when to use react hooks? React JS is
-                            developed by Facebook in the year 2013. There are
-                            many students and the new developers who have
-                            confusion between react and hooks in react. Well, it
-                            is not different, react is a programming language
-                            and hooks is ...
-                          </p>
-                          <a
-                            href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="about-link-2"
-                          >
-                            Read More
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-4 col-sm-6">
-                      <div className="blog-main">
-                        <a
-                          href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <img
-                            src="assets/img/blog/blog2.png"
-                            alt="The importance of UI/UX"
-                            className="blog-img"
-                          />
-                        </a>
-                        <div className="blog-head">
-                          <a
-                            href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ textDecoration: "none" }}
-                          >
-                            <h3>
-                              <strong>
-                                The importance of UI/UX | Software Engineering
-                              </strong>
-                            </h3>
-                          </a>
-                        </div>
-                        <div className="blog-bottom">
-                          <p>
-                            UI or User Interface is the interface that is the
-                            access point where users interact with computers. It
-                            is also a way through which users can interact with
-                            a website or an application. UI design typically
-                            refers to graphical user interfaces but also
-                            includes others, such as voice-controlled ones, a
-                            keyboard and the appearance ...
-                          </p>
-                          <a
-                            href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="about-link-2"
-                          >
-                            Read More
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-4 col-sm-6">
-                      <div className="blog-main">
-                        <a
-                          href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <img
-                            src="assets/img/blog/blog3.png"
-                            alt="blog-img"
-                            className="blog-img"
-                          />
-                        </a>
-                        <div className="blog-head">
-                          <a
-                            href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ textDecoration: "none" }}
-                          >
-                            <h3>
-                              <strong>Form Example in Laravel 8</strong>
-                            </h3>
-                          </a>
-                        </div>
-                        <div className="blog-bottom">
-                          <p>
-                            Laravel 8 form example tutorial. In this post, i
-                            will teach from starting on how to send form data on
-                            controller and how to insert form data in database
-                            using laravel 8. If you are trying to create form
-                            and want to insert form data into database using
-                            laravel 8 latest version. So this post will help you
-                            to do this. Because in this post example, i will
-                            create contact-list ...
-                          </p>
-                          <a
-                            href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="about-link-2"
-                          >
-                            Read More
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="row" style={{ textAlign: "center" }}>
-                      <a
-                        href="https://dev.to/sanajitjana"
-                        target="newtab"
-                        className="btn btn-warning"
-                        style={{
-                          width: "50%",
-                          fontSize: "16px",
-                          backgroundColor: "#efd236",
-                          borderColor: "#efd236",
-                          color: "black",
-                        }}
-                      >
-                        More Blog
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -1124,212 +521,76 @@ const Home = () => {
           <div className="contact-content">
             <div className="text-grid">
               <div className="text-grid-main">
+                <div
+                  style={{
+                    width: "100%",
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  {" "}
+                  <img
+                    style={{ width: "100%" }}
+                    src="https://avatars.mds.yandex.net/i?id=f74b72047dd0823c6a21eb597d52edd93bd59af1-11401793-images-thumbs&n=13"
+                    alt=""
+                  />
+                </div>
                 <div className="container">
                   <div className="row">
                     <div className="col-md-12 col-sm-12">
                       <div className="main-title text-center wow fadeIn">
-                        <h3>Contact Me</h3>
+                        <h3>PHP</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
+                        <h3>PHP haqida malumotlar</h3>
                         <p>
-                          I’m always open to discussing product design work or
-                          partnership opportunities.
+                          PHP Nima? PHP, server tomonida ishlaydigan skript tili
+                          hisoblanadi. Boshqa tillarga o'xshash, PHP-serverda
+                          ishlaydi va brauzerga HTML kodini jo'natadi.
+                          Foydalanish Yo'riqnomasi: PHP kodlari .php
+                          kengaytmasidan foydalanadi. PHP skriptlari server
+                          tomonida ishlaydi, shuning uchun PHP interpreteriga
+                          kerak bo'ladi. O'rganish Uchun Kerakli Asoslar: PHP
+                          tilini o'rganish uchun HTML, CSS, va JavaScript hamda
+                          server texnologiyalariga o'z xosliga ega bo'lishingiz
+                          kerak. Oliy Darajadagi Amaliyot: PHP, bir nechta veb
+                          ilovalarini (masalan, WordPress, Joomla, Drupal)
+                          ishlab chiqishda keng ishlatiladi. Laravel va Symfony
+                          kabi PHP-frameworklar server tomonidagi veb ilovalarni
+                          yaratishda yaxshi o'rin olganlaridan. Ozgina
+                          Xususiyatlar: Obyektga yo'naltirilgan til (OOP)ning
+                          to'liq qo'llanilishi. Odatda ma'lumotlar bazalari
+                          bilan integratsiya qilish uchun mahsulot va
+                          interfeyslar mavjud. Yuqori darajadagi xavfsizlik
+                          ko'nikmalari (masalan, SQL injection ni tekshirish).
+                          Maxsus Funksiyalar: Fayllarni yuklash, ma'lumotlar
+                          bazalariga murojaat qilish, sahifalarni generatsiya
+                          qilish kabi turli vazifalarni o'z ichiga oladi. PHP
+                          Hypertext Preprocessor (PHP) — veb-dasturchilarga
+                          ma'lumotlar bazalari bilan o'zaro bog'langan dinamik
+                          tarkibni yaratishga imkon beruvchi dasturiy tildir.
+                          PHP asosan veb-ga asoslangan dasturlar ishlab chiqish
+                          uchun ishlatiladi. Rasmus Lerdorf, PHP ning birinchi
+                          versiyasini 1994 yilda ochdi. PHP — «PHP: gipermatnli
+                          preprosessor» uchun takrorlanadigan qisqartma. PHP
+                          HTML-ga o'rnatilgan server tomoni skript tilidir. Bu
+                          dinamik tarkibni boshqarish, ma'lumotlar bazalari,
+                          seanslarni kuzatish, hatto barcha elektron tijorat
+                          saytlarini yaratish uchun ishlatiladi. MySQL,
+                          PostgreSQL, Oracle, Sybase, Informix va Microsoft SQL
+                          Server kabi ommabop ma'lumotlar bazalari bilan
+                          birlashtirildi. PHP-ning umumiy foydasi. PHP
+                          formalarni boshqarishi mumkin, ya'ni fayllardan
+                          ma'lumotlarni to'plash, ma'lumotlarni faylga saqlash,
+                          elektron pochta orqali ma'lumotlarni yuborish,
+                          foydalanuvchiga ma'lumotni qaytarish. PHP orqali
+                          ma'lumotlar bazasida elementlarni qo'shish, o'chirish,
+                          o'zgartirish kabi vazifalarni bajarishingiz mumkin.
+                          Cookie-fayllarga kirish va o’zgaruvchan parametrlar.
+                          PHP-dan foydalanib siz veb-saytingizning ba’zi
+                          sahifalariga kirishni cheklashingiz mumkin.
+                          Ma’lumotlarni shifrlash mumkin.
                         </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="contact-grid">
-              <div className="contact-form-details wow fadeIn">
-                <div className="container">
-                  {/* <div className="row contact-row">
-                    <div className="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-1 contact-col">
-                      <h3>Write Your Message Here</h3>
-                      <div className="contact-form">
-                        <form
-                          action="https://herokuapp.us6.list-manage.com/subscribe/post?u=870e1b447d1f93893227a9c52&amp;id=85d6c939a5"
-                          method="post"
-                          id="mc-embedded-subscribe-form contactForm"
-                          name="mc-embedded-subscribe-form"
-                          className="contact-form shake validate"
-                          target="_blank" 
-                          data-toggle="validator"
-                          novalidate
-                        >
-                          <div className="form-group">
-                            <div className="controls">
-                              <input
-                                type="text"
-                                name="FLNAME"
-                                id="mce-FLNAME"
-                                className="required form-control"
-                                placeholder="Your Name"
-                                required
-                                data-error="Please enter your name"
-                              />
-                              <div className="help-block with-errors"></div>
-                            </div>
-                          </div>
-                          <div className="form-group">
-                            <div className="controls">
-                              <input
-                                type="email"
-                                className="email required form-control"
-                                name="EMAIL"
-                                id="mce-EMAIL"
-                                placeholder="Your Email"
-                                required
-                                data-error="Please enter your email"
-                              />
-                              <div className="help-block with-errors"></div>
-                            </div>
-                          </div>
-                          <div className="form-group">
-                            <div className="controls">
-                              <input
-                                type="phone"
-                                name="PHONE"
-                                className="phone form-control"
-                                id="phone mce-PHONE"
-                                placeholder="Your Phone"
-                                required
-                                data-error="Please enter your phone"
-                              />
-                              <div className="help-block with-errors"></div>
-                            </div>
-                          </div>
-                          <div className="form-group">
-                            <div className="controls">
-                              <textarea
-                                id="message mce-MESSAGE"
-                                rows="7"
-                                placeholder="Your Massage"
-                                name="MESSAGE"
-                                className="required form-control"
-                                required
-                                data-error="Please enter your message"
-                              ></textarea>
-                              <div className="help-block with-errors"></div>
-                            </div>
-                          </div>
-                          <div id="mce-responses" class="clear">
-                            <div
-                              class="response"
-                              id="mce-error-response"
-                              style={{ display: "none" }}
-                            ></div>
-                            <div
-                              class="response"
-                              id="mce-success-response"
-                              style={{ display: "none" }}
-                            ></div>
-                          </div>
-                          <div
-                            style={{ position: "absolute", left: "-5000px" }}
-                            aria-hidden="true"
-                          >
-                            <input
-                              type="text"
-                              name="b_870e1b447d1f93893227a9c52_85d6c939a5"
-                              tabindex="-1"
-                              value=""
-                            />
-                          </div>
-                          <button
-                            type="submit"
-                            value="Subscribe"
-                            name="subscribe"
-                            id="submit mc-embedded-subscribe"
-                            className="btn btn-success"
-                          >
-                            Send Message
-                          </button>
-                          <div
-                            id="msgSubmit"
-                            className="h3 text-center hidden"
-                          ></div>
-                          <div className="clearfix"></div>
-                        </form>
-                      </div>
-                    </div>
-                  </div> */}
-                  <div className="row contact-info-row text-center wow fadeIn">
-                    <div className="col-md-3 col-sm-6 contact-colamn">
-                      <div className="contact-col-info" data-wow-delay=".2s">
-                        <i
-                          className="fa fa-map-marker contact-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Address</h3>
-                        <p>Kolkata, West Bengal, India</p>
-                      </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6 contact-colamn">
-                      <div className="contact-col-info" data-wow-delay=".4s">
-                        <i
-                          className="fa fa-envelope contact-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Email</h3>
-                        <a
-                          href="mailto:contact.sanajitjana@gmail.com"
-                          style={{
-                            color: "black",
-                            textDecoration: "none",
-                            fontSize: "17px",
-                          }}
-                        >
-                          contact.sanajitjana@gmail.com
-                        </a>
-                      </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6 contact-colamn">
-                      <div className="contact-col-info" data-wow-delay=".6s">
-                        <i
-                          className="fa fa-mobile contact-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Phone</h3>
-                        <a
-                          href="tel:8372876775"
-                          style={{
-                            color: "black",
-                            textDecoration: "none",
-                            fontSize: "17px",
-                          }}
-                        >
-                          +91 8372876775
-                        </a>
-                      </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6 contact-colamn">
-                      <div className="contact-col-info" data-wow-delay=".6s">
-                        <i
-                          className="fa fa-television contact-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Portfolio</h3>
-                        <p>https://sanajitjana.github.io/</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="container-fluid map-col">
-                  <div class="col-md-12 col-sm-12 map-col">
-                    <div class="google-maps">
-                      <div class="map-wrap">
-                        <iframe
-                          title="google-maps"
-                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471220.5630603985!2d88.0495328251319!3d22.675752087592436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1653845709428!5m2!1sen!2sin"
-                          width="100%"
-                          height="450"
-                          style={{ border: "0" }}
-                          allowfullscreen=""
-                          loading="lazy"
-                          referrerpolicy="no-referrer-when-downgrade"
-                        ></iframe>
                       </div>
                     </div>
                   </div>
